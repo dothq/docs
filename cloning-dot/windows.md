@@ -9,8 +9,7 @@ description: >-
 ## First things first...
 
 * Make sure you have at least 20 GB of space free on your hard drive.
-* You'll need to be on a 64-bit operating system to clone and build Dot Browser.
-  * If typing `uname -m` into a terminal returns `x86_64` you are on a 64-bit computer.
+* You'll need to be on a 64-bit operating system to clone and build Dot Browser \(you can [check here](https://superuser.com/a/1225322/1083268)\).
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
   * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
