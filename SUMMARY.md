@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [📚 Dot HQ Documentation](README.md)
 * [🏗 Building Dot Browser](cloning-dot/README.md)
-  * [❗ Common issues](cloning-dot/common-issues.md)
   * [🏁 Windows](cloning-dot/windows.md)
   * [🐧 Linux](cloning-dot/linux.md)
   * [🍎 macOS](cloning-dot/unix-based.md)
+  * [❗ Common issues](cloning-dot/common-issues.md)
 
