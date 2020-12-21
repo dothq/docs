@@ -1,8 +1,8 @@
 ---
-description: This is a step by step guide on how to build Dot Browser on Linux and macOS.
+description: This is a step by step guide on how to build Dot Browser on macOS.
 ---
 
-# 🐧 Linux and macOS
+# 🍎 macOS
 
 ## First things first...
 

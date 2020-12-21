@@ -8,7 +8,7 @@ description: >-
 
 ## First things first...
 
-* Make sure you have at least 10 GB of space free on your hard drive.
+* Make sure you have at least 20 GB of space free on your hard drive.
 * To speed up the build process, we recommend excluding the Dot folder from your anti-virus.
 * You'll need to be on a 64-bit operating system to clone and build Dot Browser \(you can [check here](https://superuser.com/a/1225322/1083268)\).
 * The following software and tools are required for the build process:
