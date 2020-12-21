@@ -1,32 +1,36 @@
 ---
-description: This is a step by step guide on how to build Dot Browser on Linux and macOS.
+description: This is a step by step guide on how to build Dot Browser on Linux.
 ---
 
-# 🐧 Linux and macOS
+# 🐧 Linux
 
 ## First things first...
 
 * Make sure you have at least 20 GB of space free on your hard drive.
 * You'll need to be on a 64-bit operating system to clone and build Dot Browser.
-  * You can check this by typing `lscpu | grep "CPU op-mode"` into a terminal. If your computer is 64-bit it will show `32-bit` and `64-bit` and if your computer is 32-bit, it'll just show `32-bit.`
+  * If typing `uname -m` into a terminal returns `x86_64` you are on a 64-bit computer.
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
   * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
   * python3 \([python.org](https://www.python.org/downloads/)\)
+  * python2 \([python.org](https://python.org)\)
+  * git-cinnabar \([github.com/glandium/git-cinnabar/\#setup](https://github.com/glandium/git-cinnabar/#setup)\)
 
-## Step 0: Downloading the scripts
+## Downloading the bootstrapper
 
-It's time for you to download the Dot Browser helper scripts.
-
-Launch **Git Bash** _\(if Git Bash isn't on your system, please try reinstalling_ [_Git_](https://git-scm.org/)_\)_
-
-You should see a terminal open, go ahead and type in:
+We're now going to install the tool to clone and bootstrap Dot Browser.
 
 ```text
-wget -O - https://raw.githubusercontent.com/dothq/scripts/main/download-scripts.sh | bash
+curl https://raw.githubusercontent.com/dothq/browser-ff/master/python/mozboot/bin/bootstrap.py -o bootstrap.py
 ```
 
-This will download the `download-scripts.sh` from GitHub and will start downloading the scripts.
+This will download the `bootstrap.py` Python script from GitHub.
+
+Now we want to run the bootstrapper. You can do this by typing:
+
+```text
+python3 bootstrap.py
+```
 
 ## Step 1: Getting the source code
 
