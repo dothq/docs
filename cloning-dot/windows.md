@@ -1,6 +1,6 @@
 ---
 description: >-
-  This is the step by step guide on how to build Dot Browser on the world's most
+  This is a step by step guide on how to build Dot Browser on the world's most
   popular operating system, Windows.
 ---
 
