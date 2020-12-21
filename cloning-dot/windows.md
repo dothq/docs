@@ -9,18 +9,23 @@ description: >-
 ## First things first...
 
 * Make sure you have at least 20 GB of space free on your hard drive.
-* To speed up the build process, we recommend excluding the Dot folder from your anti-virus.
-* You'll need to be on a 64-bit operating system to clone and build Dot Browser \(you can [check here](https://superuser.com/a/1225322/1083268)\).
+* You'll need to be on a 64-bit operating system to clone and build Dot Browser.
+  * If typing `uname -m` into a terminal returns `x86_64` you are on a 64-bit computer.
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
   * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
   * python3 \([python.org](https://www.python.org/downloads/)\)
   * python2 \([python.org](https://python.org)\)
+  * git-cinnabar \([github.com/glandium/git-cinnabar/\#setup](https://github.com/glandium/git-cinnabar/#setup)\)
   * Visual Studio \([visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/)\)
 * Select the following settings in Visual Studio Installer:
   * Desktop development with C++
   * Game development with C++
   * Windows 10 SDK \(version **10.0.17134.0 or higher**\)
+
+{% hint style="info" %}
+Dot Browser is based on Firefox, which is why it is referenced a lot in the build process.
+{% endhint %}
 
 ## Work in progress!
 
