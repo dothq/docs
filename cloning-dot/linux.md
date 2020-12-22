@@ -70,7 +70,7 @@ To take your build for a test drive, run: |mach run|
 
 ## Running Dot Browser
 
-You've made it! You have successfully built Dot Browser. Now it's time to our build for a test drive. We can do that by running:
+You've made it! You have successfully built Dot Browser. Now it's time to take our build for a test drive. We can do that by running:
 
 ```text
 ./mach run
@@ -79,6 +79,8 @@ You've made it! You have successfully built Dot Browser. Now it's time to our bu
 If everything went according to plan, you should see Dot Browser appear before your eyes!
 
 ![It&apos;s magic! &#x2728;](../.gitbook/assets/tenor.gif)
+
+If you encounter any issues, [open an issue with the correct component on our GitHub repository](https://github.com/dothq/browser/issues/new/choose).
 
 
 
