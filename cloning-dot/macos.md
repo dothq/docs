@@ -12,7 +12,7 @@ description: This is a step by step guide on how to build Dot Browser on macOS.
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
   * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
-  * Homebrew \(brew.sh\)
+  * Homebrew \([brew.sh](https://brew.sh)\)
   * python3 \([python.org](https://www.python.org/downloads/)\)
   * python2 \([python.org](https://python.org)\)
   * git-cinnabar \([github.com/glandium/git-cinnabar/\#setup](https://github.com/glandium/git-cinnabar/#setup)\)
