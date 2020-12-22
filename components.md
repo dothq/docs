@@ -105,11 +105,9 @@ Any issues with the "Storage" tab in DevTools.
 
 Make sure you redact any personal information like cookies, session tokens, etc.
 
-#### Storage
+#### Styles Editor
 
-Any issues with the "Storage" tab in DevTools.
-
-Make sure you redact any personal information like cookies, session tokens, etc.
+Any issues with the "Styles Editor" tab in DevTools.
 
 
 
