@@ -151,6 +151,10 @@ Any issues with the Settings Web UI \(about:preferences\). We also count issues 
 
 If an issue occurs in that component, it is most likely valid.
 
+## Synchronisation/Sync server
+
+This component has no information yet. Sync server is still a work in progress.
+
 
 
 #### 
