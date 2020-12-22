@@ -161,6 +161,12 @@ Any issues with the Tabbar, Tab switcher \(Ctrl+Tab\) or Tabs overflow list.
 
 If an issue occurs in that component, it is most likely valid.
 
+## User Interface
+
+Any issues with the look and feel of the browser \(bad styling, awful UI on 3rd party themes\).
+
+If an issue occurs in that component, it is most likely valid.
+
 
 
 #### 
