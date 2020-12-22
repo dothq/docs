@@ -141,6 +141,8 @@ If an issue occurs in that component, it is most likely valid.
 
 Any issues with the Awesome Bar \(primary search bar\) or the secondary search bar.
 
+Issues with the built-in search engines or the search engine system in Preferences can also count for this component.
+
 If an issue occurs in that component, it is most likely valid.
 
 
