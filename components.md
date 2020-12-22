@@ -145,6 +145,12 @@ Issues with the built-in search engines or the search engine system in Preferenc
 
 If an issue occurs in that component, it is most likely valid.
 
+## Settings
+
+Any issues with the Settings Web UI \(about:preferences\). We also count issues in the Configuration Web UI \(about:config\).
+
+If an issue occurs in that component, it is most likely valid.
+
 
 
 #### 
