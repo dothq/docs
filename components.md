@@ -29,7 +29,7 @@ description: >-
 * [Search](components.md#new-tab-page-1)
 * [Settings](components.md#settings)
 * [Synchronisation/Sync server](components.md#synchronisation-sync-server)
-* Tabs
+* [Tabs](components.md#tabs)
 * User Interface
 * Icons
 
