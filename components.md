@@ -21,11 +21,11 @@ description: >-
 * [DevTools: Performance](components.md#performance)
 * [DevTools: Storage](components.md#storage)
 * [DevTools: Styles Editor](components.md#styles-editor)
-* Downloads
-* [Extensions](https://github.com/dothq/browser/tree/main/extensions)
-* Gecko
-* History
-* New Tab Page
+* [Downloads](components.md#downloads)
+* [Extensions](components.md#extensions)
+* [Gecko](components.md#extensions-1)
+* [History](components.md#gecko-1)
+* [New Tab Page](components.md#history-1)
 * Search
 * Settings
 * Synchronisation/Sync server
@@ -33,29 +33,29 @@ description: >-
 * User Interface
 * Icons
 
-### Accessibility
+## Accessibility
 
 Anything that affects the accessibility of the browser.
 
-### Adblocker
+## Adblocker
 
 Example issues for this component could be: UI bugs in the Adblocker extension, false positives in the block lists or sites which might need to be added to the block lists.
 
 If your issue occurs in that component, it is most likely valid.
 
-### Bookmarks
+## Bookmarks
 
 Example issues for this component could be: problems with parsing exported bookmarks files, problems with the bookmarks bar.
 
 If the issue occurs in that component, it is most likely valid.
 
-### Build System
+## Build System
 
 Example issues for this component could be: issues with building on your platform, issues with bootstrapping, build issues.
 
 If the issue occurs in that component, it is most likely valid.
 
-### DevTools
+## DevTools
 
 As DevTools is a large component, we have divided each section into sub-components. Make sure you state which sub-component the issue is occuring in, inside your issue.
 
@@ -109,13 +109,39 @@ Make sure you redact any personal information like cookies, session tokens, etc.
 
 Any issues with the "Styles Editor" tab in DevTools.
 
-
-
-### Downloads
+## Downloads
 
 Example issues for this component could be: issues with downloading files, bad file formats, reporting false positives for the malware-detection.
 
 If the issue occurs in that component, it is most likely valid.
+
+## Extensions
+
+Any issue with the extensions in the [extensions subrepo](https://github.com/dothq/browser/tree/main/extensions).
+
+If the issue occurs in that component, it is most likely valid.
+
+## Gecko
+
+Any issues with renderering web pages, compatibility issues \(works on Chromium-based browsers\), or anything broken in the Gecko browser engine.
+
+If the issue occurs in that component, it is most likely valid.
+
+## History
+
+If an issue occurs in that component, it is most likely valid.
+
+## New Tab Page
+
+Any issues with the Dot Browser version of [Compass \(our New Tab Page\)](https://github.com/dothq/ntp).
+
+If an issue occurs in that component, it is most likely valid.
+
+## New Tab Page
+
+Any issues with the Dot Browser version of [Compass \(our New Tab Page\)](https://github.com/dothq/ntp).
+
+If an issue occurs in that component, it is most likely valid.
 
 
 
