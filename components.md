@@ -137,7 +137,7 @@ Any issues with the Dot Browser version of [Compass \(our New Tab Page\)](https:
 
 If an issue occurs in that component, it is most likely valid.
 
-## New Tab Page
+## Search
 
 Any issues with the Dot Browser version of [Compass \(our New Tab Page\)](https://github.com/dothq/ntp).
 
