@@ -16,9 +16,9 @@ description: >-
 * [DevTools: Console](components.md#console)
 * [DevTools: Debugger](components.md#debugger)
 * [DevTools: Inspector](components.md#inspector)
-* DevTools: Memory
-* DevTools: Network
-* DevTools: Performance
+* [DevTools: Memory](components.md#memory)
+* [DevTools: Network](components.md#network)
+* [DevTools: Performance](components.md#performance)
 * DevTools: Storage
 * DevTools: Styles Editor
 * Downloads
@@ -82,6 +82,36 @@ We do not accept issues which are reproducible in other browser engines as it pr
 #### Inspector
 
 Any issues with the "Inspector" tab in DevTools.
+
+#### Memory
+
+Any issues with the "Memory" tab in DevTools.
+
+#### Network
+
+Any issues with the "Network" tab in DevTools.
+
+Examples of issues for the Network sub-component could be: issues parsing headers, issues parsing the body, etc.
+
+#### Performance
+
+Any issues with the "Performance" tab in DevTools.
+
+We do not accept issues which are to do with your website's performance. However, if the issue is reproducible on other websites we may accept it.
+
+#### Storage
+
+Any issues with the "Storage" tab in DevTools.
+
+Make sure you redact any personal information like cookies, session tokens, etc.
+
+#### Storage
+
+Any issues with the "Storage" tab in DevTools.
+
+Make sure you redact any personal information like cookies, session tokens, etc.
+
+
 
 #### 
 
