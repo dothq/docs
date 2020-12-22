@@ -22,9 +22,14 @@ description: >-
 * DevTools: Storage
 * DevTools: Styles Editor
 * Downloads
-* Extensions \(anything in [github.com/dothq/browser/tree/main/extensions](https://github.com/dothq/browser/tree/main/extensions)\)
+* [Extensions](https://github.com/dothq/browser/tree/main/extensions)
 * Gecko
 * History
 * New Tab Page
 * Search
+* Settings
+* Synchronisation/Sync server
+* Tabs
+* User Interface
+* Icons
 
