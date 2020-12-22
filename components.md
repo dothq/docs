@@ -28,7 +28,7 @@ description: >-
 * [New Tab Page](components.md#history-1)
 * [Search](components.md#new-tab-page-1)
 * [Settings](components.md#settings)
-* Synchronisation/Sync server
+* [Synchronisation/Sync server](components.md#synchronisation-sync-server)
 * Tabs
 * User Interface
 * Icons
