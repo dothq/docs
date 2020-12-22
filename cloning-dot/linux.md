@@ -80,7 +80,5 @@ If everything went according to plan, you should see Dot Browser appear before y
 
 ![It&apos;s magic! &#x2728;](../.gitbook/assets/tenor.gif)
 
-If you encounter any issues, [open an issue with the correct component on our GitHub repository](https://github.com/dothq/browser/issues/new/choose).
-
 
 
