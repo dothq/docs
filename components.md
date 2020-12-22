@@ -27,7 +27,7 @@ description: >-
 * [History](components.md#gecko-1)
 * [New Tab Page](components.md#history-1)
 * [Search](components.md#new-tab-page-1)
-* Settings
+* [Settings](components.md#settings)
 * Synchronisation/Sync server
 * Tabs
 * User Interface
