@@ -19,7 +19,7 @@ description: >-
 * [DevTools: Memory](components.md#memory)
 * [DevTools: Network](components.md#network)
 * [DevTools: Performance](components.md#performance)
-* DevTools: Storage
+* [DevTools: Storage](components.md#storage)
 * DevTools: Styles Editor
 * Downloads
 * [Extensions](https://github.com/dothq/browser/tree/main/extensions)
