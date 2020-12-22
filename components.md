@@ -30,7 +30,7 @@ description: >-
 * [Settings](components.md#settings)
 * [Synchronisation/Sync server](components.md#synchronisation-sync-server)
 * [Tabs](components.md#tabs)
-* User Interface
+* [User Interface](components.md#user-interface)
 * Icons
 
 ## Accessibility
