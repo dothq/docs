@@ -155,6 +155,12 @@ If an issue occurs in that component, it is most likely valid.
 
 This component has no information yet. Sync server is still a work in progress.
 
+## Tabs
+
+Any issues with the Tabbar, Tab switcher \(Ctrl+Tab\) or Tabs overflow list.
+
+If an issue occurs in that component, it is most likely valid.
+
 
 
 #### 
