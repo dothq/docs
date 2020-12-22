@@ -25,13 +25,13 @@ description: >-
 * [Extensions](components.md#extensions)
 * [Gecko](components.md#extensions-1)
 * [History](components.md#gecko-1)
+* Icons
 * [New Tab Page](components.md#history-1)
 * [Search](components.md#new-tab-page-1)
 * [Settings](components.md#settings)
 * [Synchronisation/Sync server](components.md#synchronisation-sync-server)
 * [Tabs](components.md#tabs)
 * [User Interface](components.md#user-interface)
-* Icons
 
 ## Accessibility
 
@@ -128,6 +128,12 @@ Any issues with renderering web pages, compatibility issues \(works on Chromium-
 If the issue occurs in that component, it is most likely valid.
 
 ## History
+
+If an issue occurs in that component, it is most likely valid.
+
+## Icons
+
+Any issues with the icons in the browser.
 
 If an issue occurs in that component, it is most likely valid.
 
