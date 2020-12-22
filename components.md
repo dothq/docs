@@ -10,12 +10,12 @@ description: >-
 * [Adblocker](components.md#adblocker)
 * [Bookmarks](components.md#bookmarks)
 * [Build System](components.md#build-system)
-* DevTools
-* DevTools: Accessibility
-* DevTools: Application
-* DevTools: Console
-* DevTools: Debugger
-* DevTools: Inspector
+* [DevTools](components.md#devtools)
+* [DevTools: Accessibility](components.md#accessibility-1)
+* [DevTools: Application](components.md#application)
+* [DevTools: Console](components.md#console)
+* [DevTools: Debugger](components.md#debugger)
+* [DevTools: Inspector](components.md#inspector)
 * DevTools: Memory
 * DevTools: Network
 * DevTools: Performance
