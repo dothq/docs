@@ -20,7 +20,7 @@ description: >-
 * [DevTools: Network](components.md#network)
 * [DevTools: Performance](components.md#performance)
 * [DevTools: Storage](components.md#storage)
-* DevTools: Styles Editor
+* [DevTools: Styles Editor](components.md#styles-editor)
 * Downloads
 * [Extensions](https://github.com/dothq/browser/tree/main/extensions)
 * Gecko
