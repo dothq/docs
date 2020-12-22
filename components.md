@@ -139,7 +139,7 @@ If an issue occurs in that component, it is most likely valid.
 
 ## Search
 
-Any issues with the Dot Browser version of [Compass \(our New Tab Page\)](https://github.com/dothq/ntp).
+Any issues with the Awesome Bar \(primary search bar\) or the secondary search bar.
 
 If an issue occurs in that component, it is most likely valid.
 
