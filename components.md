@@ -111,5 +111,13 @@ Any issues with the "Styles Editor" tab in DevTools.
 
 
 
+### Downloads
+
+Example issues for this component could be: issues with downloading files, bad file formats, reporting false positives for the malware-detection.
+
+If the issue occurs in that component, it is most likely valid.
+
+
+
 #### 
 
