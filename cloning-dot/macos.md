@@ -6,16 +6,26 @@ description: This is a step by step guide on how to build Dot Browser on macOS.
 
 ## First things first...
 
-* Make sure you have at least 20 GB of space free on your hard drive.
+* Minimum requirements:
+
+  * 8GB of RAM
+  * 4 physical CPU cores
+  * 20GB of disk space free
+
+* Recommended requirements:
+
+  * 16GB of RAM
+  * 8 physical CPU cores
+  * 35GB of disk space free
+
 * You'll need to be on a 64-bit operating system to clone and build Dot Browser.
+
   * If typing `uname -m` into a terminal returns `x86_64` you are on a 64-bit computer.
+
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
-  * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
-  * Homebrew \([brew.sh](https://brew.sh)\)
-  * python3 \([python.org](https://www.python.org/downloads/)\)
-  * python2 \([python.org](https://python.org)\)
-  * git-cinnabar \([github.com/glandium/git-cinnabar/\#setup](https://github.com/glandium/git-cinnabar/#setup)\)
+  * NodeJS \([nodejs.org](https://nodejs.org)\)
+  * yarn \([npmjs.com/package/yarn](https://www.npmjs.com/package/yarn)\)
 
 {% hint style="info" %}
 Dot Browser is based on Firefox, which is why it is referenced a lot in the build process.
