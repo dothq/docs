@@ -26,6 +26,7 @@ description: This is a step by step guide on how to build Dot Browser on macOS.
   * Git \([git-scm.org](https://git-scm.org)\)
   * NodeJS \([nodejs.org](https://nodejs.org)\)
   * yarn \([npmjs.com/package/yarn](https://www.npmjs.com/package/yarn)\)
+  * Docker
 
 {% hint style="info" %}
 Dot Browser is based on Firefox, which is why it is referenced a lot in the build process.
