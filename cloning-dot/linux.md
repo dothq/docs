@@ -6,15 +6,27 @@ description: This is a step by step guide on how to build Dot Browser on Linux.
 
 ## First things first...
 
-* Make sure you have at least 20 GB of space free on your hard drive.
+* Minimum requirements:
+
+  * 8GB of RAM
+  * 4 physical CPU cores
+  * 20GB of disk space free
+
+* Recommended requirements:
+
+  * 16GB of RAM
+  * 8 physical CPU cores
+  * 35GB of disk space free
+
 * You'll need to be on a 64-bit operating system to clone and build Dot Browser.
+
   * If typing `uname -m` into a terminal returns `x86_64` you are on a 64-bit computer.
+
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
   * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
   * python3 \([python.org](https://www.python.org/downloads/)\)
   * python2 \([python.org](https://python.org)\)
-  * git-cinnabar \([github.com/glandium/git-cinnabar/\#setup](https://github.com/glandium/git-cinnabar/#setup)\)
 
 {% hint style="info" %}
 Dot Browser is based on Firefox, which is why it is referenced a lot in the build process.
@@ -70,7 +82,7 @@ To take your build for a test drive, run: |mach run|
 
 ## Running Dot Browser
 
-You've made it! You have successfully built Dot Browser. Now it's time to our build for a test drive. We can do that by running:
+You've made it! You have successfully built Dot Browser. Now it's time to take our build for a test drive. We can do that by running:
 
 ```text
 ./mach run
@@ -79,6 +91,8 @@ You've made it! You have successfully built Dot Browser. Now it's time to our bu
 If everything went according to plan, you should see Dot Browser appear before your eyes!
 
 ![It&apos;s magic! &#x2728;](../.gitbook/assets/tenor.gif)
+
+If you encounter any issues, [open an issue with the correct component on our GitHub repository](https://github.com/dothq/browser/issues/new/choose).
 
 
 
