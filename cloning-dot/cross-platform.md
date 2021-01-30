@@ -51,8 +51,8 @@ See [Supported build targets](cross-platform.md#supported-build-targets) for a l
 
  It's a very resource intensive process so make sure you check the requirements against your computer. It usually takes 30 minutes for computers in the recommended requirements region.
 
-```text
-./melon build [windows,macos,linux]
+```bash
+./melon build <target-os> # target-os could be: windows, macos or linux
 ```
 
 Once the build is done, we need to make sure the build was successful, check to see if something appeared like:
