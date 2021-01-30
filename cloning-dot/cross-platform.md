@@ -6,6 +6,10 @@ description: >-
 
 # 🤝 Cross-platform
 
+{% hint style="warning" %}
+**Beware!** Some of the features in this doc are broken or buggy
+{% endhint %}
+
 ## First things first...
 
 * Minimum requirements:
