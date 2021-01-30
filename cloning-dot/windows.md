@@ -72,7 +72,7 @@ Now run `./melon download` This will download the source code and mount it in th
 
 ## Importing the patches
 
-Next, you're going to want to import the patches. You can do this by running the command below.
+Once you've downloaded the source code, you're going to want to import the patches. You can do this by running the command below.
 
 ```bash
 ./melon import
