@@ -63,3 +63,24 @@ Once the build is done, we need to make sure the build was successful, check to 
 
 If you see that message, you can move on to the final step.
 
+| OS | Built binaries |
+| :--- | :--- |
+| Windows | `MOZ_APP_NAME-VERSION-LANGUAGE-win64-installer.exe` |
+| Unix | `MOZ_APP_NAME-VERSION.LANGUAGE.linux-x86_64.tar.bz2` |
+
+## Running Dot Browser
+
+The final step is to run your cross-built version of Dot Browser. 
+
+{% hint style="danger" %}
+Just remember you **will not** be able to run Windows binaries on Unix based systems like macOS or Linux. And you still might have issues running macOS binaries on Linux and vice-versa.
+{% endhint %}
+
+It's as simple as running:
+
+```text
+./melon run
+```
+
+And voilà, Dot should appear before your eyes!
+
