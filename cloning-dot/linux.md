@@ -48,7 +48,9 @@ git clone https://gitlab.com/dothq/browser-ff
 
 After the clone is complete, you'll want to enter the `browser-ff` directory.
 
-Now run `./melon download` This will download the source code and mount it in the ```src``` directory.
+### Downloading the source code and mounting
+
+Now run `./melon download` This will download the source code.
 
 {% hint style="info" %}
 `melon` is a build toolkit for Dot Browser.
