@@ -28,3 +28,38 @@ description: >-
   * yarn \([npmjs.com/package/yarn](https://www.npmjs.com/package/yarn)\)
   * Docker
 
+{% hint style="warning" %}
+Follow steps 1 \(Cloning Dot Browser\) and 2 \(Importing patches\) on your host machine and then come back here to start step 3
+{% endhint %}
+
+## Supported build targets
+
+| Build target | Supported? |
+| :--- | :--- |
+| Windows 64-bit | ✅ |
+| macOS 64-bit | ✅ |
+| Linux 64-bit | ✅ |
+| Windows 32-bit | ❌ |
+| macOS 32-bit | ❌ |
+| Linux 32-bit | ❌ |
+
+## Building Dot Browser
+
+Now, we're going to want to build Dot Browser for your target OS.
+
+See [Supported build targets](cross-platform.md#supported-build-targets) for a list of supported build targets.
+
+ It's a very resource intensive process so make sure you check the requirements against your computer. It usually takes 30 minutes for computers in the recommended requirements region.
+
+```text
+./melon build [windows,macos,linux]
+```
+
+Once the build is done, we need to make sure the build was successful, check to see if something appeared like:
+
+```text
+01:00:00 Your build was successful!
+```
+
+If you see that message, you can move on to the final step.
+
