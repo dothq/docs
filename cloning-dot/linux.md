@@ -48,7 +48,9 @@ git clone https://gitlab.com/dothq/browser-ff
 
 After the clone is complete, you'll want to enter the `browser-ff` directory.
 
-Now run `./melon download` This will download the source code and mount it in the ```src``` directory.
+### Downloading the source code and mounting
+
+Now run `./melon download` This will download the source code.
 
 {% hint style="info" %}
 `melon` is a build toolkit for Dot Browser.
@@ -56,7 +58,7 @@ Now run `./melon download` This will download the source code and mount it in th
 
 ## Importing the patches
 
-Next, you're going to want to import the patches. You can do this by running the command below.
+Once you've downloaded the source code, you're going to want to import the patches. You can do this by running the command below.
 
 ```bash
 ./melon import
@@ -71,7 +73,7 @@ Now, we're going to want to build Dot Browser for Linux.
  It's a very resource intensive process so make sure you check the requirements against your computer. It usually takes 30 minutes for computers in the recommended requirements region.
 
 ```text
-./melon build linux
+./melon build
 ```
 
 The build runs inside a Docker container so it is separate from your actual machine.

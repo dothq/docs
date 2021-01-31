@@ -6,101 +6,80 @@ description: This is a step by step guide on how to build Dot Browser on macOS.
 
 ## First things first...
 
-* Minimum requirements:
-
-  * 8GB of RAM
-  * 4 physical CPU cores
-  * 20GB of disk space free
-
-* Recommended requirements:
-
-  * 16GB of RAM
-  * 8 physical CPU cores
-  * 35GB of disk space free
-
+* Make sure you have at least 20 GB of space free on your hard drive.
 * You'll need to be on a 64-bit operating system to clone and build Dot Browser.
-
   * If typing `uname -m` into a terminal returns `x86_64` you are on a 64-bit computer.
-
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
-  * NodeJS \([nodejs.org](https://nodejs.org)\)
-  * yarn \([npmjs.com/package/yarn](https://www.npmjs.com/package/yarn)\)
-  * Docker
+  * Mercurial \([mercurial-scm.org](https://www.mercurial-scm.org/)\)
+  * Homebrew \([brew.sh](https://brew.sh)\)
+  * python3 \([python.org](https://www.python.org/downloads/)\)
+  * python2 \([python.org](https://python.org)\)
+  * git-cinnabar \([github.com/glandium/git-cinnabar/\#setup](https://github.com/glandium/git-cinnabar/#setup)\)
 
 {% hint style="info" %}
 Dot Browser is based on Firefox, which is why it is referenced a lot in the build process.
 {% endhint %}
 
-## Clone the repository
+## Downloading the bootstrapper
 
-We're now going to clone Dot Browser.
-
-```text
-git clone https://github.com/dothq/browser-ff
-```
-
-Or if you prefer using GitLab:
+We're now going to install the tool to clone and bootstrap Dot Browser.
 
 ```text
-git clone https://gitlab.com/dothq/browser-ff
+curl https://raw.githubusercontent.com/dothq/browser-ff/master/python/mozboot/bin/bootstrap.py -o bootstrap.py
 ```
 
-After the clone is complete, you'll want to enter the `browser-ff` directory.
+This will download the `bootstrap.py` Python script from GitHub.
 
-### Downloading the source code and mounting
-
-Now run `./melon download` This will download the source code.
-
-{% hint style="info" %}
-`melon` is a build toolkit for Dot Browser.
-{% endhint %}
-
-## Importing the patches
-
-Once you've downloaded the source code, you're going to want to import the patches. You can do this by running the command below.
+Now we want to run the bootstrapper by typing the command below. The bootstrap will take around 10 minutes up to a couple hours.
 
 ```bash
-./melon import
+python3 bootstrap.py
 ```
 
-If everything went smoothly with the import, you should see a "success" message.
+After the clone is complete the bootstrapper will ask you what version you want to build. This table will demonstrate the differences between an artifact build and a generic build.
+
+|  | Artifact builds | Generic builds |
+| :--- | :--- | :--- |
+| Time to build | ~10 seconds | ~1 hour |
+| Can build on low-end computers | ✅ | ❌ |
+| Can build front-end \(HTML, CSS, JS\) | ✅ | ✅ |
+| Can build C++ code | ❌ | ✅ |
+| Can build Rust code | ❌ | ✅ |
+| Modify build system | ❌ | ✅ |
 
 ## Building Dot Browser
 
-Now, we're going to want to build Dot Browser for macOS.
+It's time to build the browser! Start by entering the repo directory.
 
- It's a very resource intensive process so make sure you check the requirements against your computer. It usually takes 30 minutes for computers in the recommended requirements region.
-
-```text
-./melon build
+```bash
+cd dot # or the name of the repo you chose in the bootstrapper
 ```
 
-The build runs inside a Docker container so it is separate from your actual machine.
-
-Once the build is done, we need to make sure the build was successful, check to see if something appeared like:
+Now we can start building.
 
 ```text
-01:00:00 Your build was successful!
+./mach build
 ```
 
-If you see that message, you can move on to the final step.
+If everything went smoothly with the build you should see the following text:
+
+```jsx
+1:03.56 Your build was successful!
+To take your build for a test drive, run: |mach run|
+```
 
 ## Running Dot Browser
 
-The final step is to run your locally-built version of Dot Browser. 
-
-It's as simple as running:
+You've made it! You have successfully built Dot Browser. Now it's time to take our build for a test drive. We can do that by running:
 
 ```text
-./melon run
+./mach run
 ```
 
-And voilà, Dot should appear before your eyes!
+If everything went according to plan, you should see Dot Browser appear before your eyes!
 
 ![It&apos;s magic! &#x2728;](../.gitbook/assets/tenor.gif)
 
-If you encounter any issues, [open an issue on our GitHub repository](https://github.com/dothq/browser/issues/new/choose).
-
-
+If you encounter any issues, [open an issue with the correct component on our GitHub repository](https://github.com/dothq/browser/issues/new/choose).
 
