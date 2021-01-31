@@ -58,7 +58,11 @@ After the clone is complete, you'll want to enter the `browser-ff` directory in 
 
 ### Downloading the source code and mounting
 
-Now run `./melon download` in Git Bash. This will download the source code and mount it in the ```src``` directory.
+To download and set up the source code, run the following commands in Git Bash:
+```bash
+./melon download
+./windows-init.sh
+```
 
 {% hint style="info" %}
 `melon` is a build toolkit for Dot Browser.
