@@ -24,7 +24,7 @@ description: >-
   * Visual Studio \([visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/)\)
   * Docker \([docker.com](https://www.docker.com)\)
   * Python 2.7 and 3.9 \([python.org](https://www.python.org/)\)
-  * Rust \([rust-lang.org](https://www.rust-lang.org/learn/get-started)\)
+  * Rust \([rust-lang.org](https://www.rust-lang.org/tools/install)\)
   * Node.JS \([nodejs.org](https://nodejs.org)\)
     * Yarn \(`npm i -g yarn`\)
     * Typescript \(`npm i -g typescript`\)
