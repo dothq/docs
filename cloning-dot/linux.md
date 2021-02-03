@@ -27,6 +27,7 @@ description: This is a step by step guide on how to build Dot Browser on Linux.
   * NodeJS \([nodejs.org](https://nodejs.org)\)
   * yarn \([npmjs.com/package/yarn](https://www.npmjs.com/package/yarn)\)
   * Docker
+  * Rust \([rust-lang.org](https://www.rust-lang.org/tools/install)\)
 
 {% hint style="info" %}
 Dot Browser is based on Firefox, which is why it is referenced a lot in the build process.
