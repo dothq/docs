@@ -88,6 +88,10 @@ Now, we're going to want to build Dot Browser for Windows.
 
  It's a very resource intensive process so make sure you check the requirements against your computer. It usually takes between 30 minutes and an hour for computers meeting the recommended requirements.
 
+{% hint style="tip" %}
+If you have never built Dot Browser (or any Firefox-based browser) before, you will need to download the required tools by running `./melon download-artifacts` in Git Bash.
+{% endhint %}
+
 To start the build, open a MozillaBuild terminal and `cd` into `browser-ff`. To start the build, run these commands in MozillaBuild:
 
 ```bash
