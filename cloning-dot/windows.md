@@ -27,6 +27,7 @@ description: >-
   * Visual Studio \([visualstudio.microsoft.com](https://visualstudio.microsoft.com/downloads/)\)
   * Docker \([docker.com](https://www.docker.com))
   * Python 2.7 and 3.9 \([python.org](https://www.python.org/))
+  * Rust \([rust-lang.org](https://www.rust-lang.org/tools/install))
   * Node.JS \([nodejs.org](https://nodejs.org))
     * Yarn (`npm i -g yarn`)
     * Typescript (`npm i -g typescript`)
@@ -88,16 +89,16 @@ Now, we're going to want to build Dot Browser for Windows.
 
  It's a very resource intensive process so make sure you check the requirements against your computer. It usually takes between 30 minutes and an hour for computers meeting the recommended requirements.
 
-{% hint style="tip" %}
-If you have never built Dot Browser (or any Firefox-based browser) before, you will need to download the required tools by running `./melon download-artifacts` in Git Bash.
-{% endhint %}
-
 To start the build, open a MozillaBuild terminal and `cd` into `browser-ff`. To start the build, run these commands in MozillaBuild:
 
 ```bash
 cd src
 MOZCONFIG=../configs/windows/mozconfig ./mach build
 ```
+
+{% hint style="tip" %}
+If you get an error about missing required dependencies, you can install them by running `./melon download-artifacts` in Git Bash.
+{% endhint %}
 
 Once the build is done, we need to make sure the build was successful. Check to see if something appeared like:
 
