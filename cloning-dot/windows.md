@@ -45,15 +45,36 @@ Dot Browser is based on Firefox, which is why it is referenced a lot in the buil
 
 We're now going to clone Dot Browser.
 
-```bash
+{% tabs %} {% tab title="HTTPS" %}
+
+```text
 git clone https://github.com/dothq/browser-ff
 ```
 
+{% endtab %}
+
+{% tab title="SSH" %}
+
+```text
+git clone git@github.com:/dothq/browser-ff
+```
+{% endtab %} {% endtabs %}
+
 Or if you prefer using GitLab:
 
-```bash
+{% tabs %} {% tab title="HTTPS" %}
+
+```text
 git clone https://gitlab.com/dothq/browser-ff
 ```
+{% endtab %}
+
+{% tab title="SSH" %}
+
+```text
+git@gitlab.com:dothq/browser-ff.git
+```
+{% endtab %} {% endtabs %}
 
 After the clone is complete, you'll want to enter the `browser-ff` directory in Git Bash.
 
