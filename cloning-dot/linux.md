@@ -64,7 +64,7 @@ git clone https://gitlab.com/dothq/browser-ff
 {% tab title="SSH" %}
 
 ```text
-git@gitlab.com:dothq/browser-ff.git
+git clone git@gitlab.com:dothq/browser-ff.git
 ```
 {% endtab %} {% endtabs %}
 
