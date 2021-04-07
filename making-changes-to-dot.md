@@ -35,5 +35,9 @@ To export the modified file as a patch file, run the following command:
 
 You will notice that the files you changed in the `src` directory will now have their own patch files in the `patches` directory. 
 
-You are now all done, your modifications to the source code have been saved
+For example, if you edited `src/browser/app/profile/firefox.js` it would create a file in the `patches` directory called `browser-app-profile-firefox-js.patch`. 
+
+You would then commit that patch file, either to your fork to open a PR or directly to the source code if you have the correct permissions.
+
+You are now all done, your modifications to the source code have been saved! ✨
 
