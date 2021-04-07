@@ -20,5 +20,20 @@ We will assume you have cloned the source code and imported the patches already.
 | build | The build directory is where the code for the melon build tool is. It also includes the manual-patches.ts file which is where you declare the manual patches in the common directory. |
 | configs | The configs directory contains all the build configs for each build target. You shouldn't need to worry about this directory. |
 
+## Exporting patches for files that have been modified
 
+If you have edited an existing file in the `src` directory you will need to export your file to the `patches` directory so it is available for everyone else as the `src` directory is never committed to source control.
+
+To export the modified file as a patch file, run the following command:
+
+```bash
+./melon export
+
+# or if you want to export an individual file
+./melon export-file <file>
+```
+
+You will notice that the files you changed in the `src` directory will now have their own patch files in the `patches` directory. 
+
+You are now all done, your modifications to the source code have been saved
 
