@@ -41,3 +41,60 @@ You would then commit that patch file, either to your fork to open a PR or direc
 
 You are now all done, your modifications to the source code have been saved! ✨
 
+## Creating manual patches for more advanced operations
+
+You are not able to create a patch file for files that did not exist in the `src` directory to begin with.
+
+An example of this is creating a new file or directory in `src` that didn't exist before. We can, however, use manual patches for this kind of thing.
+
+If you open up `build/manual-patches.ts` in your code editor of choice you should see something like this:
+
+```typescript
+import { IPatch } from "./interfaces/patch";
+
+const manualPatches: IPatch[] = [
+    {
+        name: "branding", // name of the manual patch
+        action: "copy", // what action we want to do
+        src: "browser/branding/dot" // this will copy common/browser/branding/dot to src/browser/branding/dot
+    },
+    {
+        name: "dotui",
+        action: "copy",
+        src: [
+            "browser/themes/shared/dotui",
+            "browser/themes/windows/dotui",
+            "browser/themes/osx/dotui",
+            "browser/themes/linux/dotui"
+        ]
+    },
+    ...
+];
+
+export default manualPatches;
+```
+
+These are all manual patches that are being applied to the source code. If we take a look at the first manual patch we can see it is copying `common/browser/branding/dot` to `src/browser/branding/dot`. This is where the common directory comes in.
+
+If we created a file in the `common` directory at the path `browser/testing.txt` and made a manual patch for this:
+
+```typescript
+{
+    name: "my new manual patch",
+    action: "copy",
+    src: "browser/testing.txt"
+},
+```
+
+And then we ran `./melon rebuild` to rebuild the manual patches structure.
+
+And then `./melon import` to import our patch files and our manual patches, you should see your `my new manual patch` appearing in the logs.
+
+If you then went to `src/browser` in your file explorer, you should see `testing.txt` has been copied from `common/browser/testing.txt` to `src/browser/testing.txt`!
+
+Now what happens if you want to edit `src/browser/testing.txt`? Would you have to update `common/browser/testing.txt` too? Nope!
+
+When you edit `src/browser/testing.txt` if you run `./melon export` it will automatically export the manual patches too and it copies your changes in `src/browser/testing.txt` to `common/browser/testing.txt` so everything is up to date.
+
+And that is how manual patches work!
+
