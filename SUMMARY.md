@@ -8,4 +8,5 @@
   * [🤝 Cross-platform](cloning-dot/cross-platform.md)
   * [❗ Common issues](cloning-dot/common-issues.md)
 * [🧩 Components](components.md)
+* [📝 Making changes to Dot](making-changes-to-dot.md)
 
