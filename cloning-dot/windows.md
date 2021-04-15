@@ -20,7 +20,7 @@ description: >-
   
 * You'll need to be on a 64-bit operating system to clone and build Dot Browser.
 	* Don't know if your computer is 64-bit? \(You can [check here](https://superuser.com/a/1225322/1083268)\).
-	* [The Windows 10 ISO is downloadable through the Installation Media Tool if you are building this using a VM](https://www.microsoft.com/en-us/software-download/windows10)
+	* Optionally, The Windows 10 ISO is downloadable through the [Installation Media tool](https://www.microsoft.com/en-us/software-download/windows10)
 
 * The following software and tools are required for the build process:
   * Git \([git-scm.org](https://git-scm.org)\)
